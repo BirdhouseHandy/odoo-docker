@@ -1,5 +1,6 @@
-FROM ubuntu:20.04
-MAINTAINER Elico Corp <webmaster@elico-corp.com>
+FROM ubuntu:rolling
+#MAINTAINER Elico Corp <webmaster@elico-corp.com>
+MAINTAINER Birdhouse Handy
 
 # Define build constants
 ENV GIT_BRANCH=master \
